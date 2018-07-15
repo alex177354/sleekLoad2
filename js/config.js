@@ -14,7 +14,7 @@ var l_serverImage = "logo.png";
 
 // Center logo?
 // 'true' or 'false'
-var l_centerLogo = false;
+var l_centerLogo = true;
 
 // Display current map and gamemode?
 // 'true' or 'false'
@@ -22,7 +22,7 @@ var l_displayMapGamemode = true;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "sleekLoad 2";
+var l_serverName = "Forseen Gaming";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -72,9 +72,12 @@ var l_bgImageMapBased = false;
 // (Place the files in the backgrounds/images folder)
 // (You can also use external URL)
 var l_bgImages = [
-	"touhou01.jpg",
-	"touhou02.jpg",
-	"touhou03.jpg"
+	"oi1.jpg",
+	"oi2.jpg",
+	"oi3.jpg",
+	"oi4.jpg",
+	"oi5.jpg",
+	"oi6.jpg",
 ];
 
 // (Image-background only)
@@ -113,10 +116,7 @@ var l_musicDisplay = true;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "lullaby.ogg", name: "Lullaby of Deserted Hell"},
-	{ogg: "falls_in_fall.ogg", name: "秋に舞う椛と滝飛沫"},
-	{youtube: "https://www.youtube.com/watch?v=3VTwbEWW2W8", name: "Tea for Two"},
-	{youtube: "https://www.youtube.com/watch?v=VaDN_19rPyw", name: "Voile, the Magic Library"},
+	{ogg: "Kylo Ren's Theme.ogg", name: "Kylo Ren's theme"},
 ];
 
 // Random music order?
@@ -133,9 +133,9 @@ var l_messagesEnabled = true;
 
 // Enter your custom messages below
 var l_messages = [
-	"Enjoy the server",
+	"Hope You Enjoy the server",
 	"Thanks for joining us!",
-	"Did you know these backgrounds and music are from Touhou?",
+	"If you have any problems please report them to the staff",
 ];
 
 // Random message order?
